@@ -1,0 +1,148 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Eventify - Event and Conference Template
+    Template URI: graygrids.com
+    Description: Eventify - Event and Conference Template
+    Author: GrayGrids
+    Author URI: graygrids.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01. Theme default CSS
+	02. Header
+    03. Hero
+	04. Footer
+/*===========================
+       4.COUNTER css 
+===========================*/
+
+.single-counter {
+  background-color: #f5f8ff;
+  border: 2px solid #e6e6e6;
+  padding: 0 15px 15px; }
+  .single-counter .counter-icon {
+    position: relative;
+    margin-top: -50px; }
+    .single-counter .counter-icon i {
+      font-size: 65px;
+      color: #1863ff;
+      background-color: #f5f8ff;
+      border: 2px solid #e6e6e6;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      border-radius: 50%; }
+  .single-counter .counter-content .count {
+    font-size: 45px;
+    color: #1863ff;
+    font-weight: 600;
+    margin-top: 5px; }
+  .single-counter .counter-content .text {
+    font-weight: 500; }
+
+/*===== Header =====*/
+.header-content-area {
+  height: 850px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  position: relative;
+  overflow: hidden; }
+  @media only screen and (min-width: 1400px) {
+    .header-content-area {
+      height: 850px; } }
+  @media (max-width: 767px) {
+    .header-content-area {
+      height: 650px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header-content-area {
+      height: 550px; } }
+  .header-content-area::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(16, 43, 175, 0.2) 0%, rgba(22, 100, 255, 0.2) 100%);
+    background: -o-linear-gradient(left, rgba(16, 43, 175, 0.2) 0%, rgba(22, 100, 255, 0.2) 100%);
+    background: linear-gradient(to right, rgba(16, 43, 175, 0.2) 0%, rgba(22, 100, 255, 0.2) 100%); }
+
+.header-countdown .single-count-content {
+  padding: 0 25px;
+  text-align: center; }
+  @media (max-width: 767px) {
+    .header-countdown .single-count-content {
+      padding: 0 10px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header-countdown .single-count-content {
+      padding: 0 15px; } }
+  .header-countdown .single-count-content .count {
+    font-size: 92px;
+    font-weight: 600;
+    line-height: 130px; }
+    @media (max-width: 767px) {
+      .header-countdown .single-count-content .count {
+        font-size: 50px;
+        line-height: 0px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .header-countdown .single-count-content .count {
+        font-size: 56px;
+        line-height: 60px; } }
+  .header-countdown .single-count-content .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 30px; }
+    @media (max-width: 767px) {
+      .header-countdown .single-count-content .text {
+        font-size: 14px;
+        margin-top: 0; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .header-countdown .single-count-content .text {
+        font-size: 18px;
+        margin-top: 0; } }
+  .header-countdown .single-count-content.count-color-1 .count,
+  .header-countdown .single-count-content.count-color-1 .text {
+    color: #ee163a; }
+  .header-countdown .single-count-content.count-color-2 .count,
+  .header-countdown .single-count-content.count-color-2 .text {
+    color: #ffc107; }
+  .header-countdown .single-count-content.count-color-3 .count,
+  .header-countdown .single-count-content.count-color-3 .text {
+    color: #03a9f4; }
+  .header-countdown .single-count-content.count-color-4 .count,
+  .header-countdown .single-count-content.count-color-4 .text {
+    color: #8bc34a; }
+
+.header-content {
+  margin-top: 60px; }
+  .header-content .header-title {
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase; }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .header-content .header-title {
+        font-size: 60px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .header-content .header-title {
+        font-size: 54px; } }
+    @media (max-width: 767px) {
+      .header-content .header-title {
+        font-size: 30px; } }
+  .header-content .sub-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 22px; }
+    @media (max-width: 767px) {
+      .header-content .sub-title {
+        font-size: 20px; } }
+  .header-content .header-btn {
+    padding-top: 50px; }
+    .header-content .header-btn li {
+      display: inline-block;
+      margin: 10px 13px 0; }
