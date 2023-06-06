@@ -1,0 +1,392 @@
+
+
+h1, h2, h3, h4 {
+  font-size: 46px;
+  font-weight: 500;
+}
+
+a {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a a:focus {
+  outline: none;
+}
+
+p {
+  font-weight: 400;
+  margin: 0px;
+  font-size: 14px;
+}
+
+
+
+
+.section-titile-bg {
+  display: inline;
+  font-size: 115px;
+  font-weight: 700;
+  height: 100%;
+  left: -173px;
+  opacity: 0.1;
+  position: absolute;
+  top: -14px;
+  width: 100%;
+  text-align: center;
+}
+
+.section-title-header p {
+  text: center;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 36px;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #333;
+  line-height: 52px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  margin: 0;
+}
+
+.section-title:before {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 45px;
+  left: 50%;
+  bottom: 10px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #E91E63;
+}
+
+.section-info {
+  font-size: 14px;
+  text: center;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 12px 20px;
+  border-radius: 0px;
+  cursor: pointer;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  display: inline-block;
+}
+
+
+
+.btn-common {
+  background-color: #E91E63;
+  border: 2px solid #fff;
+  position: relative;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.btn-common:hover {
+  color: #fff;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.btn-zxznooo {
+  color: #fff;
+  background-color: #5b5b5b;
+  border: 2px solid #adadad;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.btn-zxznooo:hover {
+color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-zxzn {
+  color: #fff;
+  background-color: #5b5b5b;
+  border: 2px solid #adadad;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.btn-zxzn:hover {
+color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-border {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.btn-border:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+/* Preloader */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9999999;
+}
+
+.loader {
+  top: 45%;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+#loader-1:before, #loader-1:after {
+  content: "";
+  position: absolute;
+  top: -27px;
+  left: -15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 7px solid transparent;
+  border-top-color: #E91E63;
+}
+
+#loader-1:before {
+  z-index: 100;
+  animation: spin 2s infinite;
+}
+
+#loader-1:after {
+  border: 7px solid #fafafa;
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.section-padding {
+  padding: 60px 0;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.navbar-brand {
+  position: relative;
+  padding: 0px;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Countdown Style Start
+   ========================================================================== */
+.bg-wraper {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  min-height: 700px;
+  width: 100%;
+}
+
+.countdown-timer {
+  color: #fff;
+  position: absolute;
+  margin: 0 auto;
+  top: 20%;
+  text-align: center;
+  width: 100%;
+}
+
+.countdown-timer .heading-count {
+  padding: 0px 68px;
+  text-align: center;
+}
+
+.countdown-timer .heading-count h2 {
+  font-size: 62px;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+.countdown-timer p {
+  font-size: 14px;
+  color: #fff;
+  line-height: 22px;
+}
+
+.countdown-timer .button-group {
+  margin-top: 0px;
+}
+
+.countdown-timer .btn {
+  margin: 10px;
+}
+
+.time-count div {
+  text-align: center;
+}
+
+.time-entry {
+  display: inline-block;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 0px;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.time-entry span {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  display: block;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.time-entry:first-child {
+  border-left: none;
+}
+
+.countdown {
+  width: 100%;
+  margin: 25px auto;
+  display: inline-block;
+}
+
+.countdown .time-count {
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.countdown .time-count .time-entry {
+  position: relative;
+  display: inline-block;
+  width: 130px;
+  height: 115px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 50px -10px #000;
+}
+
+.countdown .time-count .time-entry span {
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  display: block;
+  width: 100%;
+}
+
+.line-right {
+  margin: 30px 0;
+}
+
+.line-right .time-count {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.line-right .time-count .time-entry {
+  position: relative;
+  display: inline-block;
+  width: 130px;
+  height: 115px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  background: #E91E63;
+  box-shadow: 0 5px 50px -10px #fff;
+}
+
+
+
